@@ -1,0 +1,66 @@
+//create the file of alphabets
+user@rachana:~$ cat>file.text
+abhishek
+chitransh
+satish
+rajan
+navven
+divyam
+harsh
+
+//sorting the alphabets
+user@rachana:~$ sort file.text
+abhishek
+chitransh
+divyam
+harsh
+navven
+rajan
+satish
+
+//creating the file of months
+user@rachana:~$ cat>file.text
+december 
+march
+october
+november
+april       
+february
+august
+
+//sorting the file of months
+user@rachana:~$ sort -M file.text
+february
+march
+april
+august
+october
+november
+december
+
+//creating the number of months
+user@rachana:~$ cat>number.text
+21
+21 
+9
+8
+7
+3
+
+//sorting the file of numbers
+user@rachana:~$ sort -n number.text
+3
+7
+8
+9
+21
+21 
+
+//removing the duplicates
+user@rachana:~$ sort -u number.text
+21
+3
+7
+8
+9
+
